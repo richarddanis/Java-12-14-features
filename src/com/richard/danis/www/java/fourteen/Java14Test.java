@@ -56,5 +56,6 @@ public class Java14Test {
         //check this -> javap -v -p Person.class
         //https://aboullaite.me/java-14-records/
         Person person = new Person("test", "1");
+        Person person1 = new Person("test", "1", 2);
     }
 }
