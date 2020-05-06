@@ -50,4 +50,11 @@ public class Java14Test {
 
         assertEquals(expect, actual);
     }
+
+    @Test
+    public void testRecordClass(){
+        //check this -> javap -v -p Person.class
+        //https://aboullaite.me/java-14-records/
+        Person person = new Person("test", "1");
+    }
 }
