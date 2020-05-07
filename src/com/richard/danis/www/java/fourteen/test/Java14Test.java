@@ -10,7 +10,7 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Unit test for switch expression in Java 14.
+ * Unit test to switch expression in Java 14.
  */
 @RunWith(Parameterized.class)
 public class Java14Test {
