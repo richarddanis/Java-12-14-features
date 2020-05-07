@@ -1,10 +1,18 @@
 package com.richard.danis.www.java.fourteen;
 
-public record Person(String firstName,String lastName, int age) {
+import org.jetbrains.annotations.NotNull;
 
-    public Person(String firstName, String lastName)
+import java.io.Serializable;
 
-    public String fullName(){
+/**
+ * DTO to store person object.
+ *
+ * Java 14 (preview)
+ * javap -v -p Person.class -> bytecode
+ */
+public record Person<T extends Hobbies>(T hobby, @NotNull String firstName, String lastName, int age) implements Serializable {
+
+    public String fullName() {
         return firstName + " " + lastName;
     }
 }

@@ -9,6 +9,9 @@ import java.util.Collection;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Unit test for switch expression in Java 14.
+ */
 @RunWith(Parameterized.class)
 public class Java14Test {
 
@@ -49,13 +52,5 @@ public class Java14Test {
         };
 
         assertEquals(expect, actual);
-    }
-
-    @Test
-    public void testRecordClass(){
-        //check this -> javap -v -p Person.class
-        //https://aboullaite.me/java-14-records/
-        Person person = new Person("test", "1");
-        Person person1 = new Person("test", "1", 2);
     }
 }
