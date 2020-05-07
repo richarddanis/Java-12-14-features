@@ -1,5 +1,8 @@
-package com.richard.danis.www.java.fourteen;
+package com.richard.danis.www.java.fourteen.test;
 
+import com.richard.danis.www.java.fourteen.model.Canoe;
+import com.richard.danis.www.java.fourteen.model.Hobbies;
+import com.richard.danis.www.java.fourteen.model.Person;
 import org.junit.Test;
 
 /**

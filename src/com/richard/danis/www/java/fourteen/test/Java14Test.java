@@ -1,4 +1,4 @@
-package com.richard.danis.www.java.fourteen;
+package com.richard.danis.www.java.fourteen.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
