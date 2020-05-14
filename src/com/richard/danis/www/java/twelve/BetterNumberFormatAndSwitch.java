@@ -3,7 +3,7 @@ package com.richard.danis.www.java.twelve;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Java12 {
+public class BetterNumberFormatAndSwitch {
 
     public String newSwitchExpression(String day) {
         return switch (day) {
